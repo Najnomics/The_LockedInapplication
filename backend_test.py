@@ -124,12 +124,12 @@ class LockedInAPITester:
             print("❌ Cannot test send message - no test user created")
             return False, {}
         
+        # The API expects these as query parameters, not JSON body
         return self.run_test(
             "Send Test WhatsApp Message",
             "POST",
-            "test/send-message",
-            200,
-            params={"phone": self.test_user['phone'], "message": "This is a test message from LockedIn API test"}
+            f"test/send-message?phone={self.test_user['phone']}&message=This is a test message from LockedIn API test",
+            200
         )
 
     def test_scheduler_jobs(self):
