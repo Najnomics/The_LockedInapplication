@@ -116,7 +116,7 @@ const SignUp = ({ onSignupSuccess }) => {
               required
             />
             <p className="text-sm text-gray-500 mt-1">
-              📱 Remember to join our WhatsApp sandbox by sending "join" to +14155238886
+              📱 Remember to join our WhatsApp sandbox by sending "join adjective-engine" to +14155238886
             </p>
           </div>
 
@@ -208,7 +208,7 @@ const Success = ({ user, onManageReminders }) => {
           <div className="bg-green-50 p-6 rounded-xl">
             <div className="text-3xl mb-3">📱</div>
             <h3 className="font-semibold text-gray-800 mb-2">Join WhatsApp</h3>
-            <p className="text-sm text-gray-600">Send "join" to +14155238886 to receive reminders</p>
+            <p className="text-sm text-gray-600">Send "join adjective-engine" to +14155238886 to receive reminders</p>
           </div>
           <div className="bg-purple-50 p-6 rounded-xl">
             <div className="text-3xl mb-3">⏰</div>
