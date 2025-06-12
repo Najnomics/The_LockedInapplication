@@ -1,5 +1,7 @@
 {
   "dependencies": {
     "@sendgrid/mail": "^8.1.5"
-  }
+  },
+  
+  "packageManager": "yarn@1.22.19"
 }
